@@ -1,0 +1,21 @@
+students = {
+    "Alice": 21,
+    "Bob": 22,
+    "Charlie": 20,
+    "David": 23,
+    "Eve": 19
+}
+
+# Access and print the age of a specific student (example: Charlie)
+print("Age of the specific student:", students["Charlie"])
+
+# Add a new student to the dictionary
+students["Frank"] = 24
+
+# Print the updated dictionary
+print("Updated dictionary:", students)
+
+
+
+Age of the specific student: 20
+Updated dictionary: {'Alice': 21, 'Bob': 22, 'Charlie': 20, 'David': 23, 'Eve': 19, 'Frank': 24}
